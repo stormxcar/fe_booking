@@ -2,7 +2,7 @@
 # Ignore all files in the .vscode directory
 .vscode/*
 # Except for the settings.json file
-!.vscode/settings.json
+.vscode/settings.json
 # Except for the extensions.json file
 !.vscode/extensions.json
 # Except for the keybindings.json file
