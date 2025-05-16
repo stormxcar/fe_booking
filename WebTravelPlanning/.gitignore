@@ -1,0 +1,41 @@
+# remove vscode settings
+# Ignore all files in the .vscode directory
+.vscode/*
+# Except for the settings.json file
+!.vscode/settings.json
+# Except for the extensions.json file
+!.vscode/extensions.json
+# Except for the keybindings.json file
+!.vscode/keybindings.json
+# Except for the launch.json file
+!.vscode/launch.json
+# Except for the tasks.json file
+!.vscode/tasks.json
+# Ignore all files in the .idea directory
+.idea/*
+# Except for the .gitignore file
+!.idea/.gitignore
+# Except for the workspace.xml file
+!.idea/workspace.xml
+# Except for the misc.xml file
+!.idea/misc.xml
+# Except for the modules.xml file
+!.idea/modules.xml
+# Except for the libraries directory
+.idea/libraries/*
+# Except for the .editorconfig file
+!.idea/.editorconfig
+# Except for the .editorconfig file
+!.idea/.gitignore
+# Except for the .editorconfig file
+!.idea/.idea
+# Except for the .editorconfig file
+!.idea/.idea.iml
+# Except for the .editorconfig file
+!.idea/.idea_modules
+# Except for the .editorconfig file
+!.idea/.idea_modules.iml
+# Except for the .editorconfig file
+!.idea/.idea_modules.iml
+# Except for the .editorconfig file
+!.idea/.idea_modules.iml
