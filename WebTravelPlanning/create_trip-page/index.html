@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM Sans:wght@500&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gilroy:wght@800&display=swap"/>
+
+    <title>Things to do - Airtrav</title>
+    <link rel="shortcut icon" href="image/logo.png" type="image/png">
+  </head>
+  <body>
+    <div class="things-to-do">
+      <div class="header_nav">
+        <div class="nav_logo" title="Back to home">
+          <a href="../Main_page/webMain.html">
+            <img src="image/logo.png" alt="">
+            <span>Airtrav</span>
+          </a>  
+        </div>
+        <div class="nav_select">
+            <ul>
+                <li><a href="#" style="color: #3B71FE ; font-weight: bold">Things To Do</a></li>
+                <li><a href="../tours-page/index.html">Tour</a></li>
+                <li><a href="../blog-page/index.html">Blog</a></li>
+            </ul>
+        </div>
+        <div class="nav_user">
+            <ul>
+                <li><a href="#">USD</a></li>
+                <li><a href="../FAQ-page/index.html">FAQ</a></li>
+                <li><a href="#"><i class="fa-regular fa-bell" title="Notification"></i></a></li>
+                <li class="user-menu">
+                  <img src="image/user_header.png" alt="" class="user-avatar">
+                  <ul class="menu">
+                      <li><a href="../profile-page/index.html">Accounts</a></li>
+                      <li><a href="../Help_page/index.html">Helps</a></li>
+                      <li>
+                          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                          <a href="../sign-page/signup.html">Sign out</a></li>
+                      <li><a href="">Interface</a>
+                      <div class="status">
+                          <i class="fa-regular fa-sun"></i>
+                          <i class="fa-solid fa-moon"></i>
+                      </div>
+                      </li>
+                    </ul>
+              </li>
+            </ul>
+        </div>
+      </div>
+      
+      <div class="things_container">
+        <div class="things_left">
+          <div class="top">
+            <h3>Search location or property</h3>
+            <label for="" class="search_locate">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Search location or property" >
+            </label>
+            <label for="check_trip" class="chk_trip">
+              <input type="checkbox" id="check_trip" checked>
+              <span>Show site trips</span>
+            </label>
+            <label for="show-my-trip" class="chk_trip">
+              <input type="checkbox" id="show-my-trip">
+              <span >Show items in my trips</span>
+            </label>
+            
+          </div>
+          <div class="bottom ">
+            <h3>Activity type</h3>
+            <label for="" class="chk-trip">
+              <input type="checkbox">
+              <span>Hidden Gems</span>
+            </label>
+            <label for="" class="chk-trip">
+              <input type="checkbox">
+              <span>Shopping</span>
+            </label>
+            <label for="" class="chk-trip">
+              <input type="checkbox">
+              <span>History Sites</span>
+            </label>
+            <label for="" class="chk-trip">
+              <input type="checkbox">
+              <span>Nightlife</span>
+            </label>
+            <label for="" class="chk-trip">
+              <input type="checkbox">
+              <span>Tours</span>
+            </label>
+            <label for="" class="chk-trip">
+              <input type="checkbox">
+              <span>Outdoors</span>
+            </label>
+            <label for="" class="chk-trip">
+              <input type="checkbox">
+              <span>U Museums</span>
+            </label>
+            <label for="" class="chk-trip">
+              <input type="checkbox">
+              <span>Parks</span>
+            </label>
+            <label for="" class="chk-trip">
+              <input type="checkbox">
+              <span>Lifestyle</span>
+            </label>
+            <label for="" class="chk-trip">
+              <input type="checkbox">
+              <span>TimeLine</span>
+            </label>
+            <label for="" class="chk-trip">
+              <input type="checkbox">
+              <span>Workout</span>
+            </label>
+          </div>
+        </div>
+        <div class="things_right" id="thing_right_items">
+          <div class="card">
+            <div class="image_adds">
+              <img src="image/image@2x.png" alt="">
+            </div>
+            <div class="card_infor">
+              <h3>CRU Champagne Bar</h3>
+              <div class="card_review">
+                <i class="fa-solid fa-star"></i>
+                <p>4.2 <span>(129 reviews) Tour</span></p>
+              </div>
+              <p>Unique 360 panoramic views of the amazing Bangkok skyline, inspired from the best Champagne listings worldwide.</p>
+              <div class="read">
+                <span>Read more</span>
+                <i class="fa-solid fa-angles-right"></i>
+              </div>
+              <div class="card_select">
+                <button class="add add-to-trip" id="add-button">Add</button>
+                <span class="price">Price $83</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image_adds">
+              <img src="image/image1@2x.png" alt="">
+            </div>
+            <div class="card_infor">
+              <h3>Tour with Guiding</h3>
+              <div class="card_review">
+                <i class="fa-solid fa-star"></i>
+                <p>4.8 <span>(122 reviews) Tour</span></p>
+                
+              </div>
+              <p>Unique 360 panoramic views of the amazing Bangkok skyline, inspired from the best Champagne listings worldwide. </p>
+              <div class="read">
+                <span>Read more</span>
+                <i class="fa-solid fa-angles-right"></i>
+              </div>
+              <div class="card_select">
+                <button class="add add-to-trip" id="add-button">Add</button>
+                <span class="price">Price $59</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image_adds">
+              <img src="image/image2@2x.png" alt="">
+            </div>
+            <div class="card_infor">
+              <h3>Wat Saket, BangKok</h3>
+              <div class="card_review">
+                <i class="fa-solid fa-star"></i>
+                <p>3.7 <span>(398 reviews) Tour</span></p>
+                
+              </div>
+              <p>Unique 360 panoramic views of the amazing Bangkok skyline, inspired from the best Champagne listings worldwide.</p>
+              <div class="read">
+                <span>Read more</span>
+                <i class="fa-solid fa-angles-right"></i>
+              </div>
+              <div class="card_select">
+                <button class="add add-to-trip" id="add-button">Add</button>
+                <span class="price">Price $90</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image_adds">
+              <img src="image/image3@2x.png" alt="">
+            </div>
+            <div class="card_infor">
+              <h3>Cambodia - Safari World </h3>
+              <div class="card_review">
+                <i class="fa-solid fa-star"></i>
+                <p>4.0 <span>(120 reviews) Tour</span></p>
+              </div>
+              <p>Unique 360 panoramic views of the amazing Cambodia skyline, inspired from the best Champagne listings worldwide.</p>
+              <div class="read">
+                <span>Read more</span>
+                <i class="fa-solid fa-angles-right"></i>
+              </div>
+              <div class="card_select">
+                <button class="add add-to-trip" id="add-button">Add</button>
+                <span class="price">Price $80</span>
+              </div>
+
+            </div>
+          </div>
+          <div class="card">
+            <div class="image_adds">
+              <img src="image/image_vn.png" alt="">
+            </div>
+            <div class="card_infor">
+              <h3>Da Nang Campaign</h3>
+              <div class="card_review">
+                <i class="fa-solid fa-star"></i>
+                <p>4.9 <span>(345 reviews) Tour</span></p>
+              </div>
+              <p>Unique 360 panoramic views of the amazing Vietnam skyline, inspired from the best Campaign listings worldwide.</p>
+              <div class="read">
+                <span>Read more</span>
+                <i class="fa-solid fa-angles-right"></i>
+              </div>
+              <div class="card_select">
+                <button class="add add-to-trip" id="add-button">Add</button>
+                <span class="price">Price $79</span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="select_btn">
+            <button type="button" id="explore">Explore All</button>
+          </div>
+        </div>
+        
+        <div class="trip-list" id="my-trip-list"></div>
+      </div>
+      
+      <!-- Phần hiển thị các chuyến đi -->
+    
+      <div class="footer_container">
+        <div class="footer_content">
+            <div class="footer_infor">
+                <div class="logo_infor">
+                    <img src="image/logo.png" alt="">
+                    <span>Airtrav</span>
+                </div>
+                <p>Similarly, a loan taken out to buy a car may be secured by the car. The duration of the loan.</p>
+                <div class="input_footer">
+                    <label for="" class="input_email">
+                        <input type="text" placeholder="Enter your email">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </label>
+                </div>
+            </div>
+            <div class="footer_service">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="">Trip Planner</a></li>
+                    <li><a href="">Tour Planning</a></li>
+                    <li><a href="">Tour Guide</a></li>
+                    <li><a href="">Tour Package</a></li>
+                    <li><a href="">Tour Advice</a></li>
+                </ul>
+            </div>
+            <div class="footer_support">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="profile-page/index.html">Account</a></li>
+                    <li><a href="">Legal</a></li>
+                    <li><a href="contact_us-page/index.html">Contact</a></li>
+                    <li><a href="">Terms & Condition</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer_business">
+                <h3>Business</h3>
+                <ul>
+                    <li><a href="">Success</a></li>
+                    <li><a href="">About Locate</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Information</a></li>
+                    <li><a href="travel_guide-page/index.html">Travel Guide</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer_socials">
+            <div class="adds_social">
+                <p>Copyright© 2021 UIHUT LLC. All rights reserved</p>
+            </div>
+            <div class="list_socials">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+        </div>
+      </div>
+    </div>
+      
+    <script src="https://kit.fontawesome.com/013b757403.js" crossorigin="anonymous"></script>
+    <script type = "module" src="index.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- Thêm thuộc tính type="module" để sử dụng các tính năng ES6 -->
+  </body>
+</html>

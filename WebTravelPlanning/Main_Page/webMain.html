@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- library scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+     <!-- a part style main and extra css -->
+    <link rel="stylesheet" href="styleMain.css">
+
+    <link rel="stylesheet" href="slide4.css">
+    <link rel="stylesheet" href="slide3.css">
+    <link rel="stylesheet" href="slide2.css">
+
+    <!-- responsive css-->
+    <link rel="stylesheet" href="/Responsive/main_page.css">
+    <!-- --------------------------------- -->
+
+    <!-- title and shortcut -->
+    <title>Travel_planning - Airtrav</title>
+    <link rel="shortcut icon" href="../image/logo.png" type="image/png">
+</head>
+<body>
+    <div class="web_container">
+        <div class="web_header">
+            <div class="header_nav">
+                <div class="nav_logo" title="home page">
+                    <img src="../image/logo.png" alt="">
+                    <span>Airtrav</span>
+                </div>
+                <div class="nav_select">
+                    <ul>
+                        <li><a target="_self" href="../create_trip-page/index.html" title="click to details page">Things To Do</a></li>
+                        <li><a href="../tours-page/index.html" title="click to details page">Tour</a></li>
+                        <li><a href="../blog-page/index.html" title="click to details page">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="nav_user">
+                    <ul>
+                        <li><a href="#" title="Currency conversion">USD</a></li>
+                        <li><a href="../FAQ-page/index.html">FAQ</a></li>
+                        <li><a href="#"><i class="fa-regular fa-bell" title="Notification
+                            "></i></a></li>
+                        <li class="user-menu">
+                            <img src="../image/user_header.png" alt="" class="user-avatar">
+                            <ul class="menu">
+                                <li><a href="../profile-page/index.html">Accounts</a></li>
+                                <li><a href="../Help_page/index.html">Helps</a></li>
+                                <li>
+                                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                    <a href="../sign-page/signup.html">Sign out</a></li>
+                                <li><a href="">Interface</a>
+                                <div class="status">
+                                    <i class="fa-regular fa-sun"></i>
+                                    <i class="fa-solid fa-moon"></i>
+                                </div>
+                                </li>
+                              </ul>
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+            <div class="header_infor">
+                <div class="header_adds">
+                    <div id="header_image_main">
+                        <div class="slide-wrapper">
+                            <div class="slide"><img src="../image/image_main_1.png" alt="slider_image_homepage_1"></div>
+                            <div class="slide"><img src="../image/image_main_2.png" alt="slider_image_homepage_2"></div>
+                            <div class="slide"><img src="../image/image_main_3.png" alt="slider_image_homepage_3"></div>
+                            <!-- <div class="overlay"></div> -->
+                          </div>
+                    </div>
+                    <div class="header_infor_details">
+                        <div class="intro_details"   data-aos="zoom-in-up">
+                            <h2>Travel Planning Made</h2>
+                            <span>Easy</sp>
+                            <img src="../image/wave.png" alt="" class="wave">
+                        </div>
+                        <p>We make it easy to plan and book your next trip with <br> a Day by Day itinerary</p>
+                        <div class="input_details">
+                            <label for="" class = "search_plan">
+                                <input type="text" placeholder="Plan a Trip">
+                                <i id="searchTour" class="fa-solid fa-arrow-right"></i>
+                                <img src="../image/eliment_left.png" alt="">
+                            </label>
+                        </div>
+                        <div class="feedback_details">
+                            <h5>Our customers say</h5>
+                            <div class="feedback_quality">
+                                <div class="feedback_exp">
+                                    <span>Excellent</span>
+                                    <div class="feeback_ratings">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                                <div class="feedback_numbers">
+                                    <span>4.7</span>
+                                    <p>out of 5 on 194 reviewers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_brands">
+                    <ul>
+                        <li><a href="https://amadeus.com/en" target="_blank" rel="noopener"><img src="../image/brand01.png" alt="amadeus_brand_img"  title="Click to details"></a></li>
+                        <li><a target="_blank" rel="noopener" href="https://www.booking.com/index.vi.html?label=gen173nr-1BCAEoggI46AdIM1gEaPQBiAEBmAEquAEXyAEM2AEB6AEBiAIBqAIDuALj8NmgBsACAdICJDJlYmYyNDVlLTVkZTYtNDcwZi05MDAyLTY3YWQwZjc1ZTAxNNgCBeACAQ&keep_landing=1&sb_price_type=total&"><img src="../image/booking_brand02.png" alt="Booking.com_img" title="Click to details"></a></li>
+                        <li><a target="_blank" rel="noopener" href="https://www.trivago.vn/vi/lm?themeId=280&tc=18&search=200-217&sem_keyword=trivago&sem_creativeid=553381580618&sem_matchtype=e&sem_network=g&sem_device=c&sem_placement=&sem_target=&sem_adposition=&sem_param1=&sem_param2=&sem_campaignid=329911942&sem_adgroupid=120724436555&sem_targetid=kwd-5593367084&sem_location=1028581&cipc=br&cip=8419000005&gclid=Cj0KCQjwwtWgBhDhARIsAEMcxeDScEOU0jbR8jRJiJJgbZxaTxaXi-p629w0Fb2bwXb3asRBHoQ_pwwaAtdKEALw_wcB"><img src="../image/trivago_brand03.png" alt="trivago_brand_img" title="Click to details"></a></li>
+                        <li><a target="_blank" rel="noopener" href="https://www.thetrainline.com/?phcode=1011l231656.&utm_campaign=theballyhoo&utm_medium=affiliate&utm_source=network&cm=0a1e.1011l231656&phcam=1100l229&~campaign_id=1100l229&~click_id=1011lwG5oJ2r"><img src="../image/trainline_brand04.png" alt="trainline_brand_img" title="Click to details"></a></li>
+                        <li><a target="_blank" rel="noopener" href="https://www.vn.cheapflights.com/?lang=en&skipapp=true&gclid=Cj0KCQjwwtWgBhDhARIsAEMcxeAeKEqwiO3S_tTev3ziWv74xSb8ZQ2XRHb8W7tLKNsliwuryycS1hAaAtzsEALw_wcB"><img src="../image/cheapflight_brand05.png" alt="cheapflight_brand_img" title="Click to details"></a></li>
+                        <li><a target="_blank" rel="noopener" href="https://www.momondo.com/"><img src="../image/momondo_brand06.png" alt="momodo_brand_img" title="Click to details"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="adver">
+            <div class="adver-container">
+                <h1 class="adver-header"  data-aos="fade-down">Innovative Trip Planning</h1>
+                <p class="adver-sub-header"  data-aos="fade-down" data-aos-duration="5000">Our Vision is to revolutionize the way people travel by <br>introducing intelligent trip planning</p>
+            </div>
+            <div class="adver-items">
+                <a href="#" class="btn-item item1"  data-aos="zoom-in" >
+                    <div class="adver-item" >
+                        <img src="../image/label01.png" alt="">
+                        <p class="">Partner allows you to 
+                        <br>browse multiple carriers 
+                        <br>for travel.</p>
+                        <p class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i><p>
+                    </div>
+                </a>
+
+                <a href="#" class="btn-item item2" data-aos="zoom-in">
+                    <div class="adver-item ">
+                        <img src="../image/label02.png" alt="">
+                        <p class="">The website is a way for 
+                        <br>partners to communicate 
+                        <br>with their customers.</p>
+                        <p class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i><p>
+                    </div>
+                </a>
+
+                <a href="#" class="btn-item item3" data-aos="zoom-in">
+                    <div class="adver-item ">
+                        <img src="../image/label03.png" alt="">
+                        <p class="">The eBook Reader is 
+                        <br>a new way to look at 
+                        <br>e-books.</p>
+                        <p class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i><p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="booking_guide_container">
+            <div class="slideshow_container" data-aos="fade-up-right">
+                <div class="booking_cards active">
+                    <div class="card_create_1">
+                        <h3>Create Your Trip</h3>
+                        <h4>Set up all trip</h4>
+                        <label for="" class="search_booking">
+                            <input type="text" placeholder="Plan a Trip">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </label>
+                        <div class="details_create">
+                            <ul>
+                                <li>
+                                    <label for="" class=" infor">
+                                        <i class="fa-solid fa-circle-dot"></i>
+                                        <span>Set Up Your Account</span>
+                                    </label>
+                                    <p>Book your best experience</p>
+                                </li>
+                                <li>
+                                    <label for="" class= "infor">
+                                        <i class="fa-solid fa-circle-dot"></i>
+                                        <span>Day by day Plan</span>
+                                    </label>
+                                    <p>Book your best experience</p>
+                                </li>
+                                <li>
+                                    <label for="" class = "infor">
+                                        <i class="fa-solid fa-circle-dot"></i>
+                                        <span>Booking System</span>
+                                    </label>
+                                    <p>Book your best experience</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="booking_prices">
+                            <h4>$19.99</h4>
+                            <span>/ per Trip</span>
+                        </div>
+                    </div>
+        
+                    <!-- <div class="booking_slides">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <a href="">01 / <span>03</span></a>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div> -->
+                </div>
+    
+                <div class="booking_cards">
+                    <div class="card_create_2">
+                        <h3>Enjoy Your Trip</h3>
+                        <h4>Set up all trip</h4>
+                        <label for="" class="search_booking">
+                            <input type="text" placeholder="Plan a Trip">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </label>
+                        <div class="details_create">
+                            <ul>
+                                <li>
+                                    <label for="" class=" infor">
+                                        <i class="fa-solid fa-circle-dot"></i>
+                                        <span>Set Up Your Account</span>
+                                    </label>
+                                    <p>Book your best experience</p>
+                                </li>
+                                <li>
+                                    <label for="" class= "infor">
+                                        <i class="fa-solid fa-circle-dot"></i>
+                                        <span>Day by day Plan</span>
+                                    </label>
+                                    <p>Book your best experience</p>
+                                </li>
+                                <li>
+                                    <label for="" class = "infor">
+                                        <i class="fa-solid fa-circle-dot"></i>
+                                        <span>Booking System</span>
+                                    </label>
+                                    <p>Book your best experience</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="booking_prices">
+                            <h4>$89.99</h4>
+                            <span>/ per Trip</span>
+                        </div>
+                    </div>
+        
+                    <!-- <div class="booking_slides">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <a href="">02 / <span>03</span></a>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div> -->
+                </div>
+    
+                <div class="booking_cards">
+                    <div class="card_create_3">
+                        <h3>VIP with Trip</h3>
+                        <h4>Set up all trip</h4>
+                        <label for="" class="search_booking">
+                            <input type="text" placeholder="Plan a Trip">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </label>
+                        <div class="details_create">
+                            <ul>
+                                <li>
+                                    <label for="" class=" infor">
+                                        <i class="fa-solid fa-circle-dot"></i>
+                                        <span>Set Up Your Account</span>
+                                    </label>
+                                    <p>Book your best experience</p>
+                                </li>
+                                <li>
+                                    <label for="" class= "infor">
+                                        <i class="fa-solid fa-circle-dot"></i>
+                                        <span>Day by day Plan</span>
+                                    </label>
+                                    <p>Book your best experience</p>
+                                </li>
+                                <li>
+                                    <label for="" class = "infor">
+                                        <i class="fa-solid fa-circle-dot"></i>
+                                        <span>Booking System</span>
+                                    </label>
+                                    <p>Book your best experience</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="booking_prices">
+                            <h4>$299.99</h4>
+                            <span>/ per Trip</span>
+                        </div>
+                    </div>
+        
+                    <!-- <div class="booking_slides">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <a href="">03 / <span>03</span></a>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div> -->
+                </div>
+
+                <div class="controls">
+                    <button title="previous-button" type="button" class="prev"><i class="fa-solid fa-angle-left"></i></button>
+                    <button title="next-button" type="button" class="next"><i class="fa-solid fa-angle-right"></i></button>
+                  </div>
+            </div>
+
+            <div class="booking_steps" data-aos="fade-left">
+                <h2>Book Easy 3 Steps</h2>
+                <p>Planning a trip is sometimes not easy. But Trip Plan will help you to manage time and budget for your journey! There are only 3 steps: Create an account, choose your destination city.</p>
+                <div class="details_steps">
+                    <ul>
+                        <li>
+                            <label for=" " class= "infor_booking">
+                                <i class="fa-solid fa-circle-dot"></i>
+                                <span>Set Up Your Account</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="" class= "infor_booking">
+                                <i class="fa-solid fa-circle-dot"></i>
+                                <span>Respond to Private requests</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="" class= "infor_booking">
+                                <i class="fa-solid fa-circle-dot"></i>
+                                <span>Booking System</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="step_advice">
+                    <p><i>“Plan your trip with a 3-step trip plan. Check in out at a glance, select hotel rooms on the go, and create a packing list”</i></p>
+                </div>
+                <div class="users_booking">
+                    <img src="../image/avatar.png" alt="">
+                    <div class="details_user">
+                        <h3>Steve Jobs</h3>
+                        <span>Co-Founder and CEO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="book-trip">
+            <div class="review-book-trip">
+                <div class="header-book-trip"  data-aos="fade-right">
+                    <h1>Easy Trip Booking Website</h1>
+                    <p>A new way to book travel online, saving you time. With trip, There are 
+                    <br>no confusing spreadsheets or complicated searches. We just ask the 
+                    <br>right questions, find the best deal for you, then book it.</p>
+                </div>
+
+                <div class="items-book-trip">
+                    <div class="btn-item" data-aos="zoom-in-up">
+                        <div class="item-book-trip">
+                            <a target="_blank" href="https://www.tripadvisor.com.vn/" rel="noopener">
+                                <img src="../image/brand logo_01.png" alt="" title ="Click to details">
+                                <h4>Trip Advisor</h4>
+                            </a>
+                            <p>Cheap Flights Amazing Experiences</p>
+                        </div>
+                    </div>    
+
+                    <div class="btn-item" data-aos="zoom-in-up">
+                        <div class="item-book-trip">
+                            <a target="_blank" href="https://www.airbnb.com.vn/" rel="noopener">
+                                <img src="../image/brand logo_02.png" alt="" title ="Click to details">
+                                <h4>Arbn</h4>
+                            </a>
+                            <p>Choose From a Wide Range of Properties Which Booking</p>
+                        </div>
+                    </div> 
+
+                    <div class="btn-item" data-aos="zoom-in-up">
+                        <div class="item-book-trip">
+                            <a target="_blank" href="https://www.turkishcargo.com.tr/en" rel="noopener">
+                                <img src="../image/brand logo_03.png" alt="" title ="Click to details">
+                                <h4>Turkish Cargo</h4>
+                            </a>
+                            <p>Best Flights Amazing Services</p>
+                        </div>
+                    </div>
+                    
+                    <div class="btn-item" data-aos="zoom-in-up">
+                        <div class="item-book-trip">
+                            <a target="_blank" href="https://www.iata.org/" rel="noopener">
+                                <img src="../image/brand logo_04.png" alt="" title ="Click to details">
+                                <h4>Itata</h4>
+                            </a>
+                            <p>Cheap Flights Amazing Experiences</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="select-book-trip" data-aos="fade-down-left">
+                <div class="title-book-trip">
+                    <img src="image/example.png" alt="">
+                    <div class="sub-title">
+                        <h3>Hey! Welcome to Airtrav</h3>
+                        <p>Please Select to one</p>
+                    </div>
+                </div>
+
+                <div class="frame-book-trip">
+                    <div class="status-book-trip">
+                        <div class="user-book-trip">
+                            <div class="circle"></div>
+                            <div class="infor-book-trip">
+                                <div class="line line1"></div>
+                                <div class="line line2"></div>
+                            </div>
+                        </div>
+                        <div class="line line3"></div>
+                        <div class="line line4"></div>
+                        <div class="line line5"></div>
+                        <img src="../image/book_select.png" alt="" class="book">
+                    </div>
+
+                    <div class="status-book-trip">
+                        <div class="user-book-trip">
+                            <div class="circle"></div>
+                            <div class="infor-book-trip">
+                                <div class="line line1"></div>
+                                <div class="line line2"></div>
+                            </div>
+                        </div>
+                        <div class="line line3"></div>
+                        <div class="line line4"></div>
+                        <div class="line line5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="discorver_container">
+            <h2 data-aos="fade-up">Discover our Features</h2>
+            <div class="discover_content">
+                <div class="details_discover" data-aos="fade-right">
+                    <div class="share">
+                        <img src="../image/Features_01.png" alt="">
+                        <span>Share Your Travel Plan</span>
+                    </div>
+                    <p>Ticket is an ultra-convenient way to buy your train or bus ticket online in seconds.</p>
+                </div>
+                <div class="details_discover" data-aos="fade-left">
+                    <div class="get">
+                        <img src="../image/Features_02.png" alt="">
+                        <span>Get Monthly Tour</span>
+                    </div>
+                    <p>Our Get Monthly Tours marketing package will help get more clients in your photography business.</p>
+                </div>
+                <div class="details_discover" data-aos="fade-right">
+                    <div class="receive">
+                        <img src="../image/Features_03.png" alt="">
+                        <span>Receive Ticket</span>
+                    </div>
+                    <p>The Receive plan Ticket will allow you to travel freely. You will be able to get in any location.</p>
+                </div>
+                <div class="details_discover" data-aos="fade-left">
+                    <div class="flight">
+                        <img src="../image/Features_04.png" alt="">
+                        <span>Flight Booking</span>
+                    </div>
+                    <p>Flight Booking is an ultra-convenient way to buy your train or bus ticket in seconds.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="help-book-trip">
+            <div class="trip-plan">
+                <h1 class="ready-trip"  data-aos="fade-down-right">
+                    Ready for 14 days <br> Trip plan
+                </h1>
+    
+                <p>
+                    The secret of good trip planning is to plan in advance, and we 
+                    <br>can't get much more advanced than 14 days. 
+                </p>
+    
+                <!-- Open modal create trip -->
+                <a class="go-plan-btn" id="createPlan">Go Plan</a>
+            </div>
+            
+            <div id="modalPlan" class="modalPlan">
+                <div class="modal-content">
+                 <div class="modal-plan-left">
+                    <i class="fa-solid fa-xmark closePlan"></i>
+                    <h3>Create Trip</h3>
+                    <div class="form-create-trip">
+                        <label for="" class="location">
+                            <span>Location</span>
+                            <input type="text" placeholder="City name">
+                        </label>
+                        <div class="middle-date">
+                            <label for=""class=checkIn>
+                                <span>Check in</span>
+                                <input type="date" placeholder="Start Date">
+                            </label>
+                            <label for=""class=checkOut>
+                                <span>Check out</span>
+                                <input type="date" placeholder="End Date">
+                            </label>
+                        </div>
+                        <label for="" class="travellers">
+                            <span>Travellers</span>
+                            <button title=" select member and room " class="select_trv" type="button" placeholder="Passenger"> 1 Room 1 Guest
+                                <i class="fa-solid fa-angle-right"></i>
+                            </button>
+                            <div class="passenger_detail_trav">
+                                <div class="passenger_top">
+                                    <label for="" class="adults">
+                                        <h5>Adults</h5>
+                                        <div class="select_number">
+                                            <span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                            <span class="numberChange">1</span>
+                                            <span class="plus"><i class="fa-solid fa-plus"></i></span>
+                                        </div>
+                                    </label>
+                                    <label for="" class="children">
+                                        <h5>Childrens</h5>
+                                        <div class="select_number">
+                                            <span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                            <span class="numberChange">0</span>
+                                            <span class="plus"><i class="fa-solid fa-plus"></i></span>
+                                        </div>
+                                    </label>
+                                    <label for="" class="room">
+                                        <h5>Rooms</h5>
+                                        <div class="select_number">
+                                            <span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                            <span class="numberChange">1</span>
+                                            <span class="plus"><i class="fa-solid fa-plus"></i></span>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="passenger_middle">
+                                        <h5>Children's age <span>(required)</span></h5>
+                                        <input type="number" value="1">
+                                </div>
+                                <div class="passenger_bottom">
+                                    <button onclick="resetFunction()" type="reset" class="btnReset">Reset</button>
+                                    <button type="submit">Apply</button>
+                                </div>
+                            </div>
+                        </label>
+                        <label for="" class="budget">
+                            <span>Set Budget</span>
+                            <button class="select_price" type="button" title="select your price" value="$0 - $600">$0 - $1000
+                                <i class="fa-solid fa-angle-right"></i>
+                            </button>
+                            <div class="budget_detail">
+                                <div class="budget_top">
+                                    <h4>Price range</h4>
+                                    <input type="range" id="priceRange" min="0" max="1000" value="0">
+                                    <div class="number_infor">
+                                        <span>$0</span>
+                                        <span>$1000</span>
+                                    </div>
+                                    <div class="number_detail">
+                                        <label for="" class="my_price">
+                                            <span>My price</span>
+                                            <input type="number" id="myPrice" value="0" >
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="budget_bottom">
+                                    <button id="resetButton" type="reset">Reset</button>
+                                    <button type="submit">Apply</button>
+                                </div>
+                            </div>
+                        </label>
+                        <div class="bottom-select">
+                            <label for="" class="type-pro">
+                                <span>Properties type</span>
+                                <ul class="select_type">
+                                    <li class="active">All</li>
+                                    <li>Hotel</li>
+                                    <li>House/Apartment</li>
+                                </ul>
+                            </label>
+                            <label for="" class="filters">
+                                <span>More filters</span>
+                                <button class="select_filter" type="button" title="select your filter">Select
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </button>
+                                <div class="filter_detail">
+                                    <div class="filter_top">
+                                        <h3>Hotel Class</h3>
+                                        <div class="filter_top_select">
+                                            <button>0-1 <i class="fa-solid fa-star"></i></button>
+                                            <button>2 <i class="fa-solid fa-star"></i></button>
+                                            <button>3 <i class="fa-solid fa-star"></i></button>
+                                            <button>4 <i class="fa-solid fa-star"></i></button>
+                                            <button>5 <i class="fa-solid fa-star"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="filter-middle">
+                                        <h3>Popular filters</h3>
+                                        <div class="filter_middle_select">
+                                            <label for="">
+                                                <input type="checkbox" id="cancelCheckbox">
+                                                <span>Free Cancellation</span>
+                                            </label>
+                                            <label for="">
+                                                <input type="checkbox" id="beachCheckbox">
+                                                <span>Beach</span>
+                                            </label>
+                                            <label for="">
+                                                <input type="checkbox" id="parkingCheckbox">
+                                                <span>Parking</span>
+                                            </label>
+                                            <label for="">
+                                                <input type="checkbox" id="resCheckbox">
+                                                <span>Restaurant</span>
+                                            </label>
+                                            <label for="">
+                                                <input type="checkbox" id="gymCheckbox">
+                                                <span>Gym</span>
+                                            </label>
+                                            <label for="">
+                                                <input type="checkbox" id="poolCheckbox">
+                                                <span>Pool</span>
+                                            </label>
+                                            <label for="">
+                                                <input type="checkbox" id="wifiCheckbox">
+                                                <span>Wifi</span>
+                                            </label>
+                                            <label for="">
+                                                <input type="checkbox" id="spaCheckbox">
+                                                <span>Spa</span>
+                                            </label>
+                                            <label for="">
+                                                <input type="checkbox" id="boardCheckbox">
+                                                <span>Full board</span>
+                                            </label>
+                                            <label for="">
+                                                <input type="checkbox" id="petCheckbox">
+                                                <span>Pet-friendly</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="filter_bottom">
+                                        <button type="reset" id="resetCheck">Reset</button>
+                                        <button type="submit">Apply</button>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        
+                    </div>
+                    <button class="create_trip-btn" type="submit">Create Trip</button>
+                 </div>
+                 <div class="modal-plan-right">
+                    <div class="plan-image">
+                        <img src="../image/create-trip.png" alt="">
+                    </div>
+                 </div>
+                  
+                </div>
+            </div>
+
+            <div class="steps-book">
+                <img src="../image/illustration.png" alt="" class="people">
+                <div class="to-step-book"  data-aos="fade-up"
+                data-aos-duration="1000">
+                    <div class="a-step step1">
+                        <div class="step-book">
+                            <img src="../image/share.png" alt="">
+                            <div class="sub-step">
+                                <h4>Check your route</h4>
+                                <div class="user">
+                                <div class="user-infor">
+                                    <img src="../image/user.png" alt="">
+                                    <p>Mc colaman</p>
+                                </div>
+                                <span>13 Day, 6 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="check">Check Now</a>
+                    </div>
+    
+                    <div class="a-step">
+                        <div class="step-book">
+                            <img src="../image/calendar.png" alt="">
+                            <div class="sub-step">
+                                <h4>Set Day by day Plan</h4>
+                                <div class="user">
+                                <div class="user-infor">
+                                    <img src="../image/user-1.png" alt="">
+                                    <p>Rebecca</p>
+                                </div>
+                                <span>Day by day</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="check">Check Now</a>
+                    </div>
+    
+                    <div class="a-step">
+                        <div class="step-book">
+                            <img src="../image/task.png" alt="">
+                            <div class="sub-step">
+                                <h4>Choose the Checklist</h4>
+                                <div class="user">
+                                <div class="user-infor">
+                                    <img src="../image/user-2.png" alt="">
+                                    <p>Kattamic</p>
+                                </div>
+                                <span>1 day full view</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="check">Check Now</a>
+                    </div>
+    
+                    <div class="a-step">
+                        <div class="step-book">
+                            <img src="../image/home.png" alt="">
+                            <div class="sub-step">
+                                <h4>Specify Where to stay</h4>
+                                <div class="user">
+                                <div class="user-infor">
+                                    <img src="../image/user-3.png" alt="">
+                                    <p>Settram Nc</p>
+                                </div>
+                                <span>Hotel view</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="check">Check Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_container">
+            <div class="footer_content">
+                <div class="footer_infor">
+                    <div class="logo_infor">
+                        <img src="image/logo.png" alt="">
+                        <span>Airtrav</span>
+                    </div>
+                    <p>Similarly, a loan taken out to buy a car may be secured by the car. The duration of the loan.</p>
+                    <div class="input_footer">
+                        <label for="" class="input_email">
+                            <input type="text" placeholder="Enter your email">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </label>
+                    </div>
+                </div>
+                <div class="footer_service">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Trip Planner</a></li>
+                        <li><a href="#">Tour Planning</a></li>
+                        <li><a href="#">Tour Guide</a></li>
+                        <li><a href="#">Tour Package</a></li>
+                        <li><a href="#">Tour Advice</a></li>
+                    </ul>
+                </div>
+                <div class="footer_support">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer_business">
+                    <h3>Business</h3>
+                    <ul>
+                        <li><a href="#">Success</a></li>
+                        <li><a href="#">About Locate</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Information</a></li>
+                        <li><a href="#">Travel Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer_socials">
+                <div class="adds_social">
+                    <p>Copyright© 2021 Airtrav LLC. All rights reserved</p>
+                </div>
+                <div class="list_socials">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+    <script src="https://kit.fontawesome.com/013b757403.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</html>

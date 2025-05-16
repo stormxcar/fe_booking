@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gilroy:wght@800&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400;500&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"/>
+
+    <title>FAQ - Airtrav</title>
+    <link rel="shortcut icon" href="image/logo.png" type="image/png">
+  </head>
+  <body>
+    <div class="fag_container">
+      <div class="header_nav">
+        <div class="nav_logo">
+            <a href="../Main_Page/webMain.html">
+                <img src="image/logo.png" alt="">
+                <span>Airtrav</span>
+            </a>
+        </div>
+        <div class="nav_select">
+            <ul>
+                <li><a target="_self" href="../create_trip-page/index.html">Things To Do</a></li>
+                <li><a href="../tours-page/index.html">Tour</a></li>
+                <li><a href="../blog-page/index.html">Blog</a></li>
+            </ul>
+        </div>
+        <div class="nav_user">
+            <ul>
+                <li><a href="">USD</a></li>
+                <li><a href="../FAQ-page/index.html">FAQ</a></li>
+                <li><a href=""><i class="fa-regular fa-bell"></i></a></li>
+                <li class="user-menu">
+                    <img src="image/user_header.png" alt="" class="user-avatar">
+                    <ul class="menu">
+                        <li><a href="../profile-page/index.html">Accounts</a></li>
+                        <li><a href="../Help_page/index.html">Helps</a></li>
+                        <li>
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                            <a href="../sign-page/signup.html">Sign out</a></li>
+                        <li><a href="">Interface</a>
+                        <div class="status">
+                            <i class="fa-regular fa-sun"></i>
+                            <i class="fa-solid fa-moon"></i>
+                        </div>
+                        </li>
+                      </ul>
+                </li>
+            </ul> 
+        </div>
+      </div>
+
+      <div class="faq_content">
+        <div class="header_faq">
+            <h2>Frequently Asked Questions</h2>
+            <label for="" class="add">
+                <i class="fa-solid fa-plus"></i>
+                <span id="modalFAQ">Add Question's</span>
+            </label>
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2 style="font-size: 1.3em">FAQ Question</h2>
+              <form id="myForm" class="formFAQ">
+                <div class="name">
+                  <label for="fullname">Full Name:</label>
+                  <input type="text" id="firstname" name="firstname" title="first your name" value="" required>
+                  <input type="text" id="lastname" name="lastname" title="last your name" value="" required>
+                </div>
+                <div class="email">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="security">
+                    <label for="">Security of Your question</label>
+                    <select name="" id="" title="Select a your security">
+                        <option value="">Please Select</option>
+                        <option value="">Urgent</option>
+                        <option value="">Medium</option>
+                        <option value="">Low</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label for="">Question</label>
+                    <textarea name="" id="" cols="30" rows="10" title="Your option ..."></textarea>
+                </div>
+                <input type="submit" value="Submit" class="btnSubmit">
+              </form>
+            </div>
+        </div>
+        
+        <details>
+            <summary> What is Airtrav ? </summary>
+            <p>Airtrav is a trip planner that offers a platform to plan a fully-customized, realistic itinerary for any city and town across the world. Whenever you have to plan a trip, you have to take into account the major five factors influence your trip planning. These factors are- flights and transportation, hotels, attractions and things to do, tours & activities and restaurants.</p>
+            <div class="review">
+                <label for="" id="like">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Like</span>
+                </label>
+                <label for="" id="dislike">
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <span>Dislike</span>
+                </label>
+            </div>
+        </details>
+
+        <details>
+            <summary> How can I contact you ? </summary>
+            <p>
+                You can contact me by clicking on the "Help" page on our website, which will provide you with several options for getting in touch with us. You can also reach out to our customer support team via email or phone, which are both listed on the website. We are always happy to assist you with any questions or concerns you may have regarding our travel booking services.
+            </p>
+            <div class="review">
+                <label for="" id="like">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Like</span>
+                </label>
+                <label for="" id="dislike">
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <span>Dislike</span>
+                </label>
+            </div>
+        </details>
+
+        <details>
+            <summary> When will you credit card be charged ? </summary>
+            <p>
+                Typically, your credit card will be charged at the time of booking or shortly thereafter, depending on the specific policies of the travel booking website. This should be clearly stated during the booking process, so be sure to read the terms and conditions carefully before finalizing your reservation. In some cases, you may be required to pay a deposit at the time of booking, with the balance due at a later date. It's important to understand the payment and cancellation policies of the website to avoid any unexpected charges or fees. If you have any questions or concerns about when your credit card will be charged, you should contact the website's customer support team for assistance.
+            </p>
+            <div class="review">
+                <label for="" id="like">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Like</span>
+                </label>
+                <label for="" id="dislike">
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <span>Dislike</span>
+                </label>
+            </div>
+        </details>
+
+        <details>
+            <summary> What does my quote include ?</summary>
+            <p>
+                The inclusions in your quote will depend on the specific tour package or travel booking that you have selected. In general, your quote should include all of the essential components of your trip, such as transportation, accommodation, meals, and activities. However, the exact details of what is included can vary widely depending on the nature of the tour or booking, as well as the policies of the travel booking website.
+                <br>
+                When reviewing your quote, it's important to carefully read through the inclusions to ensure that you fully understand what is and isn't covered. Some tours or bookings may have additional fees or charges that are not included in the initial quote, such as taxes, tips, or optional excursions. Be sure to ask the travel booking website's customer support team if you have any questions or concerns about what is included in your quote, so that you can make an informed decision about your travel plans.
+            </p>
+            <div class="review">
+                <label for="" id="like">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Like</span>
+                </label>
+                <label for="" id="dislike">
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <span>Dislike</span>
+                </label>
+            </div>
+        </details>
+
+        <details>
+            <summary> Are they any specials ? </summary>
+            <p>
+                Yes, many travel booking websites offer specials or promotions for various destinations or packages. These specials can include discounts on flights, hotels, tours, and activities, as well as package deals that bundle multiple elements of your trip together for a lower price.
+                <br>
+                It's always a good idea to compare prices and offers from multiple travel booking websites to ensure that you are getting the best deal possible for your travel plans. If you have any questions or concerns about a specific special or promotion, don't hesitate to reach out to the website's customer service team for more information.
+            </p>
+            <div class="review">
+                <label for="" id="like">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Like</span>
+                </label>
+                <label for="" id="dislike">
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <span>Dislike</span>
+                </label>
+            </div>
+        </details>
+
+        <details>
+            <summary> What do you think of plane food? Do you enjoy eating it? </summary>
+            <p>
+                It's important to note that eating on a plane can also be influenced by factors such as altitude, cabin pressure, and humidity, which can affect the way food tastes. If you have dietary restrictions or preferences, it's a good idea to request a special meal when booking your flight to ensure that your needs are met. Most airlines offer a range of special meal options to accommodate dietary needs.
+                <br>
+                Overall, while plane food may not always be the highlight of a flight, it's important to stay hydrated and nourished during long flights to ensure your comfort and wellbeing. Many airlines offer the option to bring your own food or purchase food onboard, so you can choose what works best for you.
+            </p>
+            <div class="review">
+                <label for="" id="like">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Like</span>
+                </label>
+                <label for="" id="dislike">
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <span>Dislike</span>
+                </label>
+            </div>
+        </details>
+        <details>
+            <summary> Do you think air travel is an environmentally friendly way to travel? </summary>
+            <p>
+                It's important to note that airlines and the aviation industry are taking steps to reduce their environmental impact. Many airlines have implemented fuel-efficient technologies and are investing in sustainable aviation fuels to reduce their carbon emissions. Additionally, some airlines have implemented carbon offset programs that allow passengers to offset their flight's carbon footprint by contributing to environmental projects.
+                <br>
+                As a traveler, there are also steps you can take to minimize your environmental impact while flying. These include packing light to reduce weight on the plane, choosing non-stop flights to reduce takeoff and landing emissions, and opting for sustainable transportation options such as public transit or electric taxis once you arrive at your destination.
+                <br>
+                Overall, while air travel may not be the most environmentally friendly way to travel, the industry is taking steps to reduce its impact and travelers can also take steps to minimize their own impact.
+            </p>
+            <div class="review">
+                <label for="" id="like">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Like</span>
+                </label>
+                <label for="" id="dislike">
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <span>Dislike</span>
+                </label>
+            </div>
+        </details>
+
+        <div class="ques">
+            <span>Have you got your question yet?</span>
+        </div>
+      </div>
+
+
+      <div class="footer_container">
+        <div class="footer_content">
+            <div class="footer_infor">
+                <div class="logo_infor">
+                    <img src="image/logo.png" alt="">
+                    <span>Airtrav</span>
+                </div>
+                <p>Similarly, a loan taken out to buy a car may be secured by the car. The duration of the loan.</p>
+                <div class="input_footer">
+                    <label for="" class="input_email">
+                        <input type="text" placeholder="Enter your email">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </label>
+                </div>
+            </div>
+            <div class="footer_service">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Trip Planner</a></li>
+                    <li><a href="#">Tour Planning</a></li>
+                    <li><a href="#">Tour Guide</a></li>
+                    <li><a href="#">Tour Package</a></li>
+                    <li><a href="#">Tour Advice</a></li>
+                </ul>
+            </div>
+            <div class="footer_support">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer_business">
+                <h3>Business</h3>
+                <ul>
+                    <li><a href="#">Success</a></li>
+                    <li><a href="#">About Locate</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Information</a></li>
+                    <li><a href="#">Travel Guide</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer_socials">
+            <div class="adds_social">
+                <p>Copyright© 2021 UIHUT LLC. All rights reserved</p>
+            </div>
+            <div class="list_socials">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+        </div>
+    </div>
+    </div>
+  </body>
+
+  <script src="https://kit.fontawesome.com/013b757403.js" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+    <script src="./index.js"></script>
+</html>

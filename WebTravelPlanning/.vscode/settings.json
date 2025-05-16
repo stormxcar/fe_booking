@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.port": 5500,
+    "livePreview.defaultPreviewPath": "/Main_Page/webMain.html",
+    "CodeGPT.model": "text-davinci-003",
+    "CodeGPT.maxTokens": 1024,
+    "CodeGPT.temperature": 1
+}

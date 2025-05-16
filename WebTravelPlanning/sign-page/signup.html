@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/013b757403.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="signup.css">
+
+    <title>Sign Up - Airtrav</title>
+    <link rel="shortcut icon" href="image/logo.png" type="image/png">
+</head>
+<body>
+  <div class="image_main">
+      <img src="image/bgc_main.jpg" alt="">
+    </div>
+  <div class="card-sign-up">
+    <div class="sign-up-left">
+        <div class="sign-up-brand">
+          <a href="../Main_Page/webMain.html" title="Back Home">
+            <img src="image/logo.png" alt="" class="logo">
+            <span>Airtrav</span>
+          </a>
+          
+        </div>
+        <h2>Welcome Back</h2>
+        <h3>Please enter your details.</h3>
+        <form action="" class="form_sign_up">
+              <label for="" class="email">
+                <span>Email</span>
+                <input type="text" placeholder="Enter your email" id="email" required>
+              </label>
+              <label for="" class="pass">
+              <span>Password</span>
+              <input type="password" placeholder="Enter your password" id="password" required>
+              </label>
+              <label for="" class="check">
+                <input type="checkbox">
+                <span>Remember me</span>
+              </label>
+              <button class="sign-up-login" type="button" onclick="chk_user()">Login</button>
+        </form>  
+          <div class="sign-up-or open" id="choiceSocials">
+            <span title="Click to choose method about your login">OR</span>
+          </div>
+            <div class="sign-up-choice">
+               <div class="sign-up-btn">
+                <button type="button" class="sign-up-button">
+                 <i class="fa-brands fa-google" style="color: red"></i>
+                 <a href="">Continue with Google</a>
+                </button>
+              </div>
+              <div class="sign-up-btn">
+                <button type="button" class="sign-up-button">
+                  <i class="fa-brands fa-facebook" style="color: rgb(38, 94, 216)"></i>
+                   <a href="">Continue with Facebook</a>
+               </button>
+             </div>
+             <div class="sign-up-btn">
+              <button class="sign-up-button">
+                <i class="fa-brands fa-twitter" style="color: rgb(22, 206, 216)"></i>
+                 <a href="">Continue with Twitter</a>
+             </button>
+           </div>
+          </div>
+
+          <div class="sign-up-ques">
+            <div class="ques_senten">
+              <span> Don't have an account?</span>
+              <a href="./signin.html">Sign up</a>
+            </div>
+            <h4>Forgot your password</h4>
+          </div> 
+    </div>
+
+    <div class="sign-up-image">
+      <img src="image/women.jpg" alt=""/>
+    </div>
+  </div>
+  
+</body>
+<script src="../sign-page/signup.js"></script>
+</html>

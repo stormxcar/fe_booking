@@ -1,0 +1,194 @@
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; 
+    border-radius: 10px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .formFAQ{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  }
+  .formFAQ input{
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    padding: 5px;
+    width: 40%;
+  }
+  .name , .email ,.security ,.question{
+    margin-bottom: 25px;
+  }
+  .name input:focus,
+  .email input:focus,
+  textarea:focus{
+    border: 2px solid #3B71FE;
+  }
+  .email input{
+    width: 68%;
+  }
+  .email label{
+    margin-right: 60px;
+    
+  }
+  .phone input{
+    width: 68%;
+  }
+  .phone label{
+    margin-right: 53px;
+  }
+  .name{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 88%;
+  }
+  .name label{
+    margin-right: 10px;
+    width: 20%;
+  }
+  
+  .security select{
+    width: 150px;
+    padding: 5px;
+    outline: none;
+  }
+  .question{
+    display: flex;
+    gap: 30px;
+  }
+  .question textarea{
+    outline: none;
+    min-width: 460px;
+  }
+  .btnSubmit{
+    max-width: 100px;
+    border-radius: 5px;
+    margin-left: 95px;
+    transition: 0.25s ease;
+  }
+  .btnSubmit:hover{
+    background-color: lightgray;
+  }
+  input[type="submit"]:focus{
+    background-color: #3B71FE;
+  }
+  .payment{
+    text-align: center;
+  }
+  .infor{
+    display: flex;
+    margin-top: 15px;  
+    justify-content: space-around;
+  }
+  .infor-cus, .infor-tour{
+    height: 400px;
+  }
+  .infor-cus{
+    width: 63%;
+  }
+  .infor-tour{
+    width: 35%;
+  }
+  .paymentMe{
+    margin-top: 15px;
+  }
+  .methods{
+    margin-top: 10px;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #visa img{
+    width: 60px;
+    height: 30px;
+  }
+  .mastercard img{
+    width: 50px;
+    height: 30px;
+  }
+  .method img{
+    width: 30px;
+    height: 30px;
+  }
+  .momo-method img{
+    width: 70px;
+    height: 80px;
+  }
+  .momo-method{
+    display: none;
+  }
+  .visa-method{
+    display: none;
+  }
+  .cr label{
+    margin-right: 15px;
+  }
+  .cr-name{
+    margin-top: 15px;
+  }
+  .cr-name label{
+    margin-right: 31.5px;
+  }
+  .cvv{
+    margin-top: 15px;
+  }
+  .cvv label{
+    margin-right: 134px;
+  }
+  .footer{
+    margin-top: 28px;
+    text-align: center;
+  }
+  .btnApply{
+    background-color: #3B71FE;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 14px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  .infor-tour{
+    box-shadow:0 2px 3px rgba(85, 85, 85, 0.588);
+    border-radius: 5px;
+    padding: 16px;
+  }
+  .name.error input{
+    border-color: #ff3860;
+  }

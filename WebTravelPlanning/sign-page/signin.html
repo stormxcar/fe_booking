@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/013b757403.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="signin.css">
+
+    <title>Sign In - Airtrav</title>
+    <link rel="shortcut icon" href="image/logo.png" type="image/png">
+    <script src="/sign-page/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+  <div class="image_main">
+      <img src="image/bgc_main_01.jpg" alt="">
+    </div>
+    <div class="card_sign_in">
+        <div class="card_left">
+            <div class="logo_header">
+                <a href="../Main_Page/webMain.html" title="Back Home">
+                    <img src="image/logo.png" alt="">
+                    <span>Airtrav</span>
+                </a>  
+            </div>
+            <h2>Get Started</h2>
+            <div class="forget">
+                <p>Don't have an account ? <a href="./signup.html">Sign in</a></p>
+            </div>
+            <div class="select_socials">
+                <div class="socials">
+                    <i class="fa-brands fa-google" style="color: red"></i>
+                    <i class="fa-brands fa-facebook" style="color: rgb(42, 88, 214)"></i>
+                    <i class="fa-brands fa-twitter" style="color: rgb(0, 191, 255)"></i>
+                </div>
+                <div class="sign-up-or"><span>or login with email</span></div>
+            </div>
+            
+    
+            <form action="" class="infor">
+                <label for="" class="details">
+                    <span>First Name   <span class="error" id="errfname" style="color: red;">(*)</span></span>
+                    <input type="text" placeholder="Enter your first name" id="fname">
+                </label>
+                <label for=""class="details">
+                    <span>Last Name    <span class="error" id="errlname" style="color: red;">(*)</span></span>
+                    <input type="text" placeholder="Enter your last name" id="lname">
+                </label>
+                <label for=""class="details">
+                    <span>Email        <span class="error" id="erremail" style="color: red;">(*)</span></span>
+                    <input type="email" placeholder="Email Address" id="email">
+                </label>
+                <label for=""class="details">
+                    <span>Password     <span class="error" id="errpass" style="color: red;">(*)</span></span>
+                    <input type="password" placeholder="Password" id="pass">
+                </label>
+                <label for=""class="details">
+                    <span>Confirm Password     <span class="error" id="errrepass" style="color: red;">(*)</span></span>
+                    <input type="password" placeholder="Password" id="repass">
+                </label>
+                <!-- <div class="remember_me">
+                    <label for="" class="chk_remember" id="check_remem">
+                        <input type="checkbox" id="check_remem">
+                        <span>Remember me</span>
+                    </label>
+                    <a href="">Forgot your password?</a>
+                </div> -->
+                <button type="submit" onclick="chk_regex()">Sign in</button>
+            </form>
+        </div>
+        
+        
+    </div>
+</body>
+<script src="../sign-page/signin.js"></script>
+</html>
