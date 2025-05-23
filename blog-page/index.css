@@ -192,8 +192,8 @@ body::-webkit-scrollbar-thumb:hover {
   margin: 100px 200px 0 200px;
   justify-content: center;
 }
-.blog_content h3 {
-  font-size: 2em;
+.blog_content a{
+  text-decoration: none; 
 }
 .blog_content h5 {
   color: #828080;
@@ -227,6 +227,7 @@ body::-webkit-scrollbar-thumb:hover {
   border-radius: 20px;
   position: relative;
   height: 600px;
+  width: 100%;
 }
 .adds_blog p {
   line-height: 25px;
@@ -288,6 +289,7 @@ body::-webkit-scrollbar-thumb:hover {
 .card_content p {
   margin-top: 30px;
   line-height: 25px;
+  color: #787474;
 }
 .select_btn {
   display: flex;
