@@ -1,21 +1,20 @@
 const paragraph = document.getElementById("paragraph");
-      const maxLength = 350; // Số ký tự tối đa trước khi cắt
+const maxLength = 350;
+const fullText = paragraph.textContent;
+const isLong = fullText.length > maxLength;
+let isShort = true;
 
-      if (paragraph.innerHTML.length > maxLength) {
-       const shortText = paragraph.innerHTML.slice(0, maxLength) + "...";
-       const fullText = paragraph.innerHTML;
+if (isLong) {
+  const shortText = fullText.slice(0, maxLength) + "...";
+  paragraph.textContent = shortText;
 
-      paragraph.innerHTML = shortText;
+  paragraph.style.cursor = "pointer";
+  paragraph.addEventListener("click", () => {
+    paragraph.textContent = isShort ? fullText : shortText;
+    isShort = !isShort;
+  });
+}
 
-      paragraph.addEventListener("click", function () {
-       if (paragraph.innerHTML === shortText) {
-         paragraph.innerHTML = fullText;
-      } else {
-        paragraph.innerHTML = shortText;
-      }
-       });    
-      }
-      const seeMore = document.getElementById('seeMore');
-       seeMore.addEventListener('click', () =>{
-        alert('Our website does not currently add new trips !');
-      })
+document.getElementById('seeMore').addEventListener('click', () => {
+  alert('Our website does not currently add new trips !');
+});
